@@ -1,18 +1,20 @@
-<!Doctype html>
-<html>
-    <head>
-        <meta name="viewport" contents="device-width", initial-scale="1.0">
-        <title>Calculator using javascript </title>
-        <link rel="icon" href="icon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="style.css">
-        <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator using JavaScript</title>
+    <link rel="icon" href="icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
             <body>
-
+              
                 <div class="container">
-                <div class="calculator">
+                <div class="calculator"> 
+                  
                 <form>
                     <div class="display">
-                        <input type="text" name="display">
+                        <input type="text" id="display" name="display" placeholder=" calculations">
                     </div>
                 <div>
                   <input type="button" value="AC" onclick="display.value = ' ' " class="operator">
@@ -32,6 +34,7 @@
                   <input type="button" value="6"  onclick="display.value += '6' ">
                   <input type="button" value="-"  onclick="display.value += '-' " class="operator">
                 </div>
+              
                 <div>
                   <input type="button" value="1"  onclick="display.value += '1' ">
                   <input type="button" value="2"  onclick="display.value += '2' ">
@@ -42,9 +45,14 @@
                   <input type="button" value="00"  onclick="display.value += '00' ">
                   <input type="button" value="0"  onclick="display.value += '0' ">
                   <input type="button" value="=" class="equal" onclick="display.value = eval(display.value)" class="equal operator">
-                </div>
-               </form>
               </div>
-            </div>
+              </form>
+              <footer>
+                <p>&copy; CALCULATOR by BHOOMI RATHI</p>
+            </footer>
+              </div>
+              </div>
+              
             </body>
-        </html>
+            
+</html>
